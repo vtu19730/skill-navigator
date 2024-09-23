@@ -1,3 +1,6 @@
 /backend-node\node_modules
 /frontend\node_modules
 /backend\__pycache__
+git rm -r -n backend\__pycache__
+git rm -r -n backend-node\node_modules
+git rm -r -n frontend\node_modules
