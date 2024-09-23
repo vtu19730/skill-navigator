@@ -204,7 +204,7 @@ const CareerNavigator = () => {
       <header className="flex items-center justify-between p-4 bg-primary text-primary-foreground">
         <h1 className="text-2xl font-bold">Career Navigator</h1>
         <nav className="flex items-center space-x-4">
-          <span className="font-medium">John Doe</span>
+          <span className="font-medium">Naveen</span>
           <Button variant="secondary" size="sm">Profile</Button>
         </nav>
       </header>
@@ -230,11 +230,7 @@ const CareerNavigator = () => {
         </section>
       </main>
 
-      <div className="fixed bottom-4 right-4">
-        <Button size="icon" className="rounded-full w-12 h-12">
-          <span className="sr-only">Open chatbot</span>
-        </Button>
-      </div>
+     
     </div>
   );
 };

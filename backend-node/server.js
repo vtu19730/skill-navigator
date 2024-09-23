@@ -76,7 +76,7 @@ app.post('/recommend/get_recommendations', async (req, res) => {
         if (skills.length === 0) {
             return res.status(400).json({ message: 'Skills array cannot be empty' });
         }
-        const prompt = `Based on the skills ${skills.join(', ')}, recommend suitable job roles. in html structure from body tag`;
+        const prompt = `Based on the skills ${skills.join(', ')}, recommend suitable job roles . in html structure from body tag`;
         
         const model = await genAi.getGenerativeModel({
             model: 'gemini-1.5-pro', // Use 'model' instead of 'engine'
