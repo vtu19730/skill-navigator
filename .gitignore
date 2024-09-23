@@ -1,3 +1,3 @@
-/backend-node\node_modules/
-/frontend\node_modules/
-/backend\__pycache__/
+/backend-node\node_modules
+/frontend\node_modules
+/backend\__pycache__
